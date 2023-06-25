@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Treasure Hunt</title>
+</head>
+<body>
+    <h1 class="title">Treasure Hunt</h1>
+        <h3 class="subhead">Find the Treasure and Escape the Island!</h3>
+    <div class="rules">
+    <img src="https://studio.code.org/v3/assets/Acrb_0CD-ISb7UryCGQfORj5-AAQ9pCX8R5_HD1Fn74/treasure.gif" alt="treasure chest">        
+    <h2>Game Rules:</h2>
+        <div>
+
+            <ul>
+                <li class="list">Click the boxes to reveal what's inside!</li>
+                <li class="list">If you click on the bomb, you lose!</li>
+                <li class="list">If you click on the coin, you win!</li>
+            </ul>
+        </div>    
+    </div>
+    <table id="game-board">
+        <tr>
+            <td id="0" onclick="treasure(0)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+            <td id="1" onclick="treasure(1)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+            <td id="2" onclick="treasure(2)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+        </tr>
+        <tr>
+            <td id="3" onclick="treasure(3)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+            <td id="4" onclick="treasure(4)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+            <td id="5" onclick="treasure(5)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+        </tr>
+        <tr>
+            <td id="6" onclick="treasure(6)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+            <td id="7" onclick="treasure(7)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+            <td id="8" onclick="treasure(8)"><img src="https://media4.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif"/></td>
+        </tr>
+    </table>
+    <footer>
+        <button id="reset-button" type="button" onclick="location.reload()">Restart Game</button>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
+
+    
+
+
+
+
+

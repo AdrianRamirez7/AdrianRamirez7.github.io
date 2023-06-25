@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/92dbee0b-06f6-4c10-9b97-ed8ac1efeac9/d8upfym-b984c8c2-4b51-4d5e-be38-0583edcb8598.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkyZGJlZTBiLTA2ZjYtNGMxMC05Yjk3LWVkOGFjMWVmZWFjOVwvZDh1cGZ5bS1iOTg0YzhjMi00YjUxLTRkNWUtYmUzOC0wNTgzZWRjYjg1OTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ws93Daz0PI_aOkHH8B8_FHm1oRyC0qSnyiBO4Eh8xLU");
+    background-size: cover;
+}
+
+.title, h3, .list {
+    margin: 13px;
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+} 
+
+h2 {
+    color: aqua;
+    font-size: 32px;
+}
+
+.list {
+    
+    font-size: 30px;
+}
+
+.subhead {
+    font-size: 40px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    height: 210px;
+}
+
+h1, h3, h2 {
+   text-align: center;
+   align-items: center;
+}
+
+h1, h3 {
+    animation: shake 1s infinite;
+    animation-direction: alternative;
+    animation-timing-function: ease-in-out;
+}
+
+ table {
+    margin: auto;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 30%;
+}
+
+li.list {
+    display: flex;
+    justify-content: center;
+}
+
+td, img {
+    width: 250px;
+    height: 190px;
+    font-size: 130px;
+    text-align: center;
+    /*background-color: rgb(191, 212, 95);*/
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: .8;
+    transition: .6s ease all;
+}
+
+#reset-button {
+    display: flex;
+    margin: auto;
+    height: 15px;
+    margin-bottom: 30px;
+    width: 15%;
+    padding: 30px;
+    color: rgb(124, 12, 12);
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cyan;
+    border-radius: 5px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-button:hover {
+        opacity: .8;
+        transition: .6s ease all;
+        cursor: pointer;
+      }
+
+#box-1 {
+    height: 50px;
+}
+
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
