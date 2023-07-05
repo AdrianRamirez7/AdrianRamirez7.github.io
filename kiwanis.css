@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: blue;
+    width: 100%;
+    padding: 40px;
+}
+
+.kiwanis-logo {
+    position: absolute;
+    top: 7px;
+    height: auto;
+    width: 170px;
+    right: 1250px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 100px;
+}
+
+li {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 0 10px;
+
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.body-1 {
+    margin-top: 50px;
+    height: 700px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
