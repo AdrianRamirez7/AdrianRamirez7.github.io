@@ -64,17 +64,18 @@ li:hover {
 }
 
 .main-title {
-    position: relative;
-    left: 121px;
+    position: absolute;
+    left: 55px;
     padding: 25px;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
 }
 
 .p-1 {
     position: relative;
     top: 175px;
-    right: 65px;
+    left: 5px;
+    right: 55px;
     line-height: 40px;
     font-size: 22px;
     color: white;
@@ -159,11 +160,7 @@ h3 > footer {
     bottom: 92px;
 }
 
-.footer-list-3 {
-    position: relative;
-    left: 550px;
-    bottom: 200px;
-}
+
 
 
 
