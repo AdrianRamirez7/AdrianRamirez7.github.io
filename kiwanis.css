@@ -3,6 +3,235 @@
     padding: 0;
 }
 
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.top-bar {
+   background-image: url("https://www.kiwanis.org/IMG/blue-stripe-pattern.png");
+}
+
+.menu {
+    padding: 30px;
+    width: 100%;
+}
+
+.kiwanis-logo {
+   
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    
+    list-style-type: none;
+    padding: 0 180px;
+}
+
+li, h2, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+li {
+    position: relative;
+    bottom: 5px;
+    color: white;
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.gold-stripe {
+    height: 7px;
+    background-color: goldenrod;
+}
+
+.main {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("https://www.kiwanis.org/IMG/blue-stripe-pattern.png");
+    box-shadow: 30px black;
+}
+
+.main-title {
+    position: relative;
+    left: 121px;
+    padding: 25px;
+    font-size: 35px;
+    color: white;
+}
+
+.p-1 {
+    position: relative;
+    top: 175px;
+    right: 65px;
+    line-height: 40px;
+    font-size: 22px;
+    color: white;
+}
+
+
+.main-2 {
+    height: 280px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.second-title {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 50px;
+    background-color: goldenrod;
+}
+
+.p-2 {
+    font-size: 15px;
+    display: flex;
+    font-weight: 200;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.p-3 {
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    justify-content: flex-end;  
+}
+
+.main-3 {
+    display: flex;
+    width: 100%;
+    height: 660px;
+    background-color: brown;
+    background-image: url("https://www.kiwanis.org/images/default-source/website-assets/clubs-map-2.jpg?sfvrsn=ac9b2fef_2");
+   
+}
+
+.main-4 {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.title-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.footer {
+    background-image: url("https://www.kiwanis.org/IMG/blue-stripe-pattern.png");
+    color: white;
+    height: 400px;
+}
+
+h3 > footer {
+
+}
+
+.footer-list-1 {
+    position: relative;
+    top: 35px;
+    left: 50px;
+  
+}
+
+.footer-list-2 {
+    position: relative;
+    left: 450px;
+    bottom: 92px;
+}
+
+.footer-list-3 {
+    position: relative;
+    left: 550px;
+    bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.box-1 {
+   
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    padding: 40px;
+}
+
+.box-2 {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.main-body {
+    height: 500px;
+    weight: 500px;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url("https://ca-times.brightspotcdn.com/dims4/default/8732cf0/2147483647/strip/true/crop/2048x1075+0+115/resize/1200x630!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faa%2F14%2F798045c9a63169f4e9559c373a5b%2Fsdut-george-cameron-u-t-file-20160824");
+}
+*/
+
+
+
+
+
+
+
+
+
+/*
 .top-bar {
     background-color: blue;
     width: 100%;
@@ -48,3 +277,4 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
