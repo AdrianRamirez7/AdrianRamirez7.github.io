@@ -88,11 +88,65 @@ const animals = [
   ]
 
 //   Create a function that takes in an array of animal objects and returns a new array with only the objects that are cats.
+const grabCats = animals.filter(animal => {
+  if (animal.type === "cat") {
+    return animal.type;
+  }
+})
+console.log(grabCats)
 
-
-console.log(returnCats);
 // Create a function that takes in an array of animal objects and returns a new array with only the names of the animals.
-
+const animalNames = animals.map(animal => {
+  
+    return animal.name;
+})
+console.log(animalNames)
 // Create a function that takes in an array of animal objects and returns a new array of the names of the animals that are more than 10 years old.
-
+const olderAnimals = animals.filter(animal => {
+  if (animal.age > 10) {
+    return animal;
+  }
+});
+console.log(olderAnimals)
 // Create a function that takes in an array of animal objects and returns a new array with a sentence about each animal.
+
+const author = {
+  name: "H. G. Wells",
+  genre: "science fiction"
+}
+
+// Write the code that destructures the author object so that the following code snippet will run successfully:
+
+const { name, genre } = author;
+
+console.log(`Author: ${name}`);
+console.log(`Genre: ${genre}`);
+
+//pokemon
+
+const pokeOne = {
+  species: "Charmandar",
+  pokemon_type: "Fire"
+}
+
+const pokeTwo = {
+  species: "Magikarp",
+  pokemon_type: "Water"
+}
+
+// Create a function called describePokemon that take an object 
+// like the ones above and uses destructuring to return a description of the 
+// Pokemon so that the following code snippet will run successfully:
+
+const describePokemon = ({species, pokemon_type}) => {
+  return `${species} is a ${pokemon_type} pokemon`
+}
+console.log(describePokemon(pokeOne));
+console.log(describePokemon(pokeTwo));
+
+//triangle dimensions
+const triangleDimensions = {
+  base: 2,
+  height: 5
+};
+
