@@ -53,14 +53,79 @@ class Latte {
     }
 
     latteProfile () {
-        return `My latte is ${this.flavor} with ${this.milkType} and ${this.number} of ${this.shots}'s.`
+        return `My latte flavor is ${this.flavor} with ${this.milkType} and ${this.shots} shot's.`
     }
 
 
 }
 
-const myLatte = new Latte("regular", "skid", "single", "shot");
+const myLatte = new Latte("Regular", "Whole Milk", 1);
 console.log(myLatte.latteProfile());
+
+// Create a double shot, hazelnut latte with almond milk
+const hazelnutLatte = new Latte("Hazelnut", "Almond Milk", 0, 2);
+
+console.log(hazelnutLatte.latteProfile());
+
+
+
+
+//Class
+class Cylinder {
+  constructor(radius, height) {
+    this.radius = radius;
+    this.height = height;
+  }
+
+  calculateVolume() {
+    const volume = Math.PI * Math.pow(this.radius, 2) * this.height;
+    return volume.toFixed(4); // Rounds to four decimal places
+  }
+}
+
+
+
+
+// Create three unique cylinder objects
+const cylinder1 = new Cylinder(5, 10);
+const cylinder2 = new Cylinder(3, 7);
+const cylinder3 = new Cylinder(8, 15);
+
+// Calculate and log the volumes of the cylinders
+console.log("Volume 1:", cylinder1.calculateVolume());
+console.log("Volume 2:", cylinder2.calculateVolume());
+console.log("Volume 3:", cylinder3.calculateVolume());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

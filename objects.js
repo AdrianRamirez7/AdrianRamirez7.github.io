@@ -109,7 +109,12 @@ const olderAnimals = animals.filter(animal => {
 });
 console.log(olderAnimals)
 // Create a function that takes in an array of animal objects and returns a new array with a sentence about each animal.
+const animalSentence = animals.map(animal => {
+  return `${animal.name} is a ${animal.type} that is ${animal.age} years old.`;
+})
+console.log(animalSentence)
 
+//authior question
 const author = {
   name: "H. G. Wells",
   genre: "science fiction"
@@ -148,5 +153,37 @@ console.log(describePokemon(pokeTwo));
 const triangleDimensions = {
   base: 2,
   height: 5
+  calculateArea: function() {
+    return (this.base * this.height) / 2;
+  }
 };
 
+triangleDimensions.base = 6;
+
+// Calculate and display the area
+const area = triangleDimensions.calculateArea();
+console.log(`The area of the triangle is ${area}`);
+
+//Stretch
+const { cohorts } = learn;
+const [yourCohort] = cohorts[2022]; // Replace 2022 with the relevant year
+console.log(yourCohort);
+
+
+
+function getAllCohorts(object) {
+  const result = [];
+  for (const year in object.cohorts) {
+    const cohortNames = object.cohorts[year];
+    cohortNames.forEach(cohort => {
+      result.push(`${year} ${cohort}`);
+    });
+  }
+  return result;
+  
+  
+  
+  
+  
+  st cohortNamesAndYears = getAllCohorts(learn);
+console.log(cohortNamesAndYears);
